@@ -10,7 +10,8 @@
 		3A1C3E16200D03EB023FB831 /* Pods_ModelPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC77009ED4808760609EA631 /* Pods_ModelPlayground.framework */; };
 		D590220AAC5D693B190D1180 /* Pods_ModelPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACD0BDE18F7C9E55ED9F0F6 /* Pods_ModelPlaygroundTests.framework */; };
 		D59B9B004ECB71BE9B6D3A41 /* Pods_ModelPlayground_ModelPlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFA2175F761D04614F6884A /* Pods_ModelPlayground_ModelPlaygroundUITests.framework */; };
-		F1D25B092DFB24FC00FE87FB /* exposure_cls.tflite in Resources */ = {isa = PBXBuildFile; fileRef = F1D25B082DFB24FC00FE87FB /* exposure_cls.tflite */; };
+		F1EF1EF22DFC7D65003C256C /* car_detector.tflite in Resources */ = {isa = PBXBuildFile; fileRef = F1EF1EF12DFC7D65003C256C /* car_detector.tflite */; };
+		F1F4280F2E00757800E71608 /* exposure_cls.tflite in Resources */ = {isa = PBXBuildFile; fileRef = F1F4280E2E00757800E71608 /* exposure_cls.tflite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,8 @@
 		F1D25AD42DFB23CB00FE87FB /* ModelPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D25AEA2DFB23CC00FE87FB /* ModelPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D25AF42DFB23CC00FE87FB /* ModelPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1D25B082DFB24FC00FE87FB /* exposure_cls.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = exposure_cls.tflite; sourceTree = "<group>"; };
+		F1EF1EF12DFC7D65003C256C /* car_detector.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = car_detector.tflite; sourceTree = "<group>"; };
+		F1F4280E2E00757800E71608 /* exposure_cls.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = exposure_cls.tflite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -131,7 +133,8 @@
 		F1D25ACB2DFB23CB00FE87FB = {
 			isa = PBXGroup;
 			children = (
-				F1D25B082DFB24FC00FE87FB /* exposure_cls.tflite */,
+				F1F4280E2E00757800E71608 /* exposure_cls.tflite */,
+				F1EF1EF12DFC7D65003C256C /* car_detector.tflite */,
 				F1D25AD62DFB23CB00FE87FB /* ModelPlayground */,
 				F1D25AED2DFB23CC00FE87FB /* ModelPlaygroundTests */,
 				F1D25AF72DFB23CC00FE87FB /* ModelPlaygroundUITests */,
@@ -270,7 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D25B092DFB24FC00FE87FB /* exposure_cls.tflite in Resources */,
+				F1EF1EF22DFC7D65003C256C /* car_detector.tflite in Resources */,
+				F1F4280F2E00757800E71608 /* exposure_cls.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
